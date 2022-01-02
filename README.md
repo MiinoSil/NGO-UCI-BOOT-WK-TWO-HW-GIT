@@ -1,3 +1,8 @@
+# Links to pages:
+<https://miinosil.github.io/NGO-UCI-BOOT-WK-TWO-HW-GIT/>
+
+<https://github.com/MiinoSil/NGO-UCI-BOOT-WK-TWO-HW-GIT>
+
 # 02 Advanced CSS: Portfolio
 
 ## Your Task
