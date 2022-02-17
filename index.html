@@ -1,98 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio, WEEK 2 HW</title>
-    <link rel="stylesheet" href="./Assets/CSS/styel.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/CSS/style.css">
+    </head>
 
-<body>
-    <header>
-        <h1>Andrew Ngo</h1>
-        <nav>
-            <ul>
-                <li><a href="#RESUME">RESUME</a></li>
-                <li><a href="#CONTACT ME">CONTACT ME</a></li>
-                <li><a href="#MY WORKS">MY WORKS</a></li>  
-                <li><a href="#ABOUT ME">ABOUT ME</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section class="flex-container">
-        
-        <div class="about">
-            <h2 class="float"; id="ABOUT ME">About Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        
-        <h2 class="float-works"; id="MY WORKS">My Works</h2>
-        
-        <div class="works">
-                <div class="container-center"><a href="#MERN">
-                    <img src="./Assets/images/MERN.jpg" alt="MERN Stack" style="width: 100%; height: 100%;">
-                    </a>
-                    <div class="text-block">
-                        <h3>Report</h3>
-                        <p>MERN Stack</p>
+    <body>
+
+        <header>
+            <nav class="navbar bg-dark text-white">
+                <h1 class="justify-content-start">Andrew Ngo</h1>
+                <ul class="nav nav-pills justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#aboutMe-container">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#works-container">Works/Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contactMe-container">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#myresume">Resume</a>
+                    </li>
+                  </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <div class="container" id="aboutMe-container">
+                <div class="row">
+                    <div class="col-lg-2 border-end border-5 just">
+                        <h3>About Me</h3>
+                    </div>
+
+                    <div class="col-lg-10">
+                        <p>Welcome to my profile page. I currently attending the UCI Coding BootCamp to build a future career in both front-end and back-end web development. My current work is a Pharmacy Technician for Walgreens.</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="container"><a href="#Calculator">
-                    <img src="./Assets/images/calculator.jpg" alt="REACT/JavaScript/CSS" style="width: 100%; height: 100%;">
-                    </a>
-                    <div class="text-block">
-                        <h3>Calculator</h3>
-                        <p>REACT/JavaScript/CSS</p>
+            <div class="container-fluid" id="HERO-container">
+                <div class="row justify-content-center">
+                    <img class="mx-auto" id="profile-img" src="./assets/images/Profile.jpg" alt="Profile Photo">
+                </div>
+            </div>
+
+            <div class="container" id="works-container">
+                <div class="row">
+                    <div class="col-lg-2 border-end border-5">
+                        <h3>My Works and Projects</h3>
+                    </div>
+
+                    <div class="col-lg-10">
+                        <div class="row">
+                            <div class="card col-12">
+                                <a href="https://github.com/Famesmyname/Ingredient-to-Meal-Planner" target="_blank"><img class="mx-auto img-fluid" id="project-1-img" src="https://raw.githubusercontent.com/Famesmyname/Ingredient-to-Meal-Planner/main/assets/screenshots/screenshot_index.png" alt="Meal-planner-project"></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="card col-6">
+                                <a href="https://github.com/MiinoSil/NGO-UCI-BOOT-WK-SIX-HW-GIT" target="_blank"><img class="img-fluid" id="weather-img" src="./assets/images/weather Dashboard.gif" alt="weather-dashboard-gif"></a>
+                            </div>
+
+                            <div class="card col-6">
+                                <a href="https://github.com/MiinoSil/NGO-UCI-BOOT-WK-FIVE-HW-GIT" target="_blank"><img class="img-fluid" src="https://github.com/MiinoSil/NGO-UCI-BOOT-WK-FIVE-HW-GIT/raw/main/Assets/05-third-party-apis-homework-demo.gif" alt="Scheduler-gif"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="container"><a href="#LED">
-                    <img src="./Assets/images/LED.gif" alt="LED" style="width: 100%; height: 100%;">
-                    </a>
-                    <div class="text-block">
-                        <h3>LED Wall</h3>
-                        <p>Node/IoT</p>
+            </div>
+
+            <!-- Section below is for "Contact Me" links and info -->
+            <div class="container" id="contactMe-container">
+                <div class="row">
+                    <div class="col-lg-2 border-end border-5">
+                        <h3>Contact Me</h3>
+                    </div>
+
+                    <div class="col-lg-2" id="myresume">
+                        <a href="https://drive.google.com/file/d/1Loi7npk1nMyj7zfPvX_m2qN3-EAQnTq-/view?usp=sharing">📄 Resume</a>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <ul class="contact-list">
+                            <li><a href="tel:+949-636-2225">📞 (949) 636-2225</a></li>
+                            <li><a href="mailto:andvngo@gmail.com">📧 Andvngo@gmail.com</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <ul class="contact-list">
+                            <li><a href="https://github.com/MiinoSil" target="_blank">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/andrew-ngo-13659760/" target="_blank">LinkedIn</a></li>
+                        </ul>
                     </div>
                 </div>
+            </div>
+        </main>
 
-                <div class="container"><a href="#Pastel Puzzle">
-                    <img src="./Assets/images/Puzzle.jpg" alt="Pastel Puzzle" style="width: 100%; height: 100%;">
-                    </a>
-                    <div class="text-block">
-                        <h3>Pastel Puzzle</h3>
-                        <p>MERN Stack</p>
-                    </div>
-                </div>
+        <!-- Footer goes below -->
+        <footer class="navbar bg-dark text-white justify-content-center">
+            <p>&copy; Copyright 2022 Andrew Ngo</p>
+        </footer>
 
-                <div class="container"><a href="Run Buddy">
-                    <img src="./Assets/images/Running.gif" alt="Run Buddy" style="width: 100%; height: 100%;">
-                    </a>
-                    <div class="text-block">
-                        <h3>Run Buddy</h3>
-                        <p>HTML/CSS</p>
-                    </div>
-                </div>    
-        </div>
-    </section>
+    </body>
 
-    <div2 class="contact">
-        <h3 id="CONTACT ME">Contact Me</h3>
-        <ul>
-            <li><a href="tel:+949-636-2225">(949) 636-2225</a></li>
-            <li><a href="mailto:andvngo@gmail.com">Andvngo@gmail.com</a></li>
-            <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
-            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
-            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
-        </ul>
-    </div2>
-
-    <footer>
-        <p>&copy; Copyright 2022 Andrew Ngo</p>
-    </footer>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./assets/JS/script.js"></script>
 
 </html>
