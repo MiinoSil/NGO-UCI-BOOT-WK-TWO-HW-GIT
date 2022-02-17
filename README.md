@@ -1,9 +1,18 @@
 # Links to pages:
-<https://miinosil.github.io/NGO-UCI-BOOT-WK-TWO-HW-GIT/>
+Hosted Page: <https://miinosil.github.io/NGO-UCI-BOOT-WK-TWO-HW-GIT/>
 
-<https://github.com/MiinoSil/NGO-UCI-BOOT-WK-TWO-HW-GIT>
+Github Repo: <https://github.com/MiinoSil/NGO-UCI-BOOT-WK-TWO-HW-GIT>
 
 
+# Description
+This is a work-in progress PORTFOLIO page. 
+It was build using
+```
+HTML
+CSS
+JavaScript
+Bootstrap
+```
 # 08 Project 1: Professional Materials
 
 Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer-competitive.
